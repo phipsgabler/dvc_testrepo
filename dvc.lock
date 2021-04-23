@@ -8,4 +8,4 @@ stages:
       size: 115
     params:
       params.json:
-        testparam: '2021-01-01'
+        testparam: 2021

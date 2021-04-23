@@ -1,0 +1,8 @@
+stages:
+  dostuff:
+    cmd: python dostuff.py
+    deps:
+    - dostuff.py
+    params:
+    - params.json:
+      - testparam

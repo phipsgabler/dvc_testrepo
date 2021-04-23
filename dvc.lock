@@ -1,0 +1,11 @@
+schema: '2.0'
+stages:
+  dostuff:
+    cmd: python dostuff.py
+    deps:
+    - path: dostuff.py
+      md5: b4cf6b0dd75f36dbe1a94dc6369bff73
+      size: 115
+    params:
+      params.json:
+        testparam: '2021-01-01'
